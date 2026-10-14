@@ -1,0 +1,17 @@
+{
+  "name": "eu5-map",
+  "version": "0.1.0",
+  "description": "The Europa Universalis V map renderer from eu5db.com: WebGL, smooth borders, country names and rivers.",
+  "license": "MIT",
+  "type": "module",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "dev": "vite demo",
+    "check": "tsc",
+    "snapshot": "node scripts/snapshot.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "vite": "^8.3.1"
+  }
+}
