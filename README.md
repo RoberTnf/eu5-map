@@ -13,12 +13,13 @@ are no releases, versions or compatibility promises.
 
 ```sh
 pnpm install
-node scripts/snapshot.mjs https://eu5db.com/data/<version>/map demo/public
+node scripts/snapshot.mjs https://eu5db.com/data/1.3.11-0d6cd6f7e3dd/map demo/public
 pnpm dev
 ```
 
-`<version>` is the folder eu5db's map loads for a game version (see the network tab on
-eu5db.com/map). The demo paints who owns what at the 1337 start.
+That is game version 1.3.11. For another, use its `id` from
+[eu5db.com/data/versions.json](https://eu5db.com/data/versions.json), whose `default` is the
+current stable version. The demo paints who owns what at the 1337 start.
 
 ## Data
 
